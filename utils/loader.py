@@ -13,5 +13,5 @@ def load_data():
             
         return df
     except FileNotFoundError:
-        st.error("❌ Critical Asset Failure: 'data/startup_success_dataset (1).csv' not located.")
+        st.error("❌ Critical Asset Failure: 'data/startup_success_dataset.csv' not located.")
         st.stop()
