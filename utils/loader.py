@@ -5,7 +5,7 @@ import pandas as pd
 def load_data():
     try:
         # Load the user's uploaded dataset
-        df = pd.read_csv("data/startup_success_dataset (1).csv")
+        df = pd.read_csv("data/startup_success_dataset.csv")
         
         # Standardize revenue display formats: convert to millions if row strings are unscaled
         if df['revenue_million'].max() > 100000:
